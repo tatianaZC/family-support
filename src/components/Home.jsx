@@ -10,13 +10,13 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
 
         {/* ---------------image background------------------ */}
         
-        <div
+        {/* <div
           className="hero-bg parallax"
           style={{ backgroundImage: 'url("images/intro-bg.jpg")' }}
-        ></div>
+        ></div> */}
 
         {/* -------------------video background---------------------- */}
-        {/*
+        
         <div className="player hero-bg parallax">
           <video
             src={videobg}
@@ -25,7 +25,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
             loop
             style={{ width: "100%", height: "100vh", objectFit: "cover" }}
           ></video>
-        </div> */}
+        </div>
 
         <div className="hero-content section d-flex min-vh-100">
           <div className="container my-auto">
